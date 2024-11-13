@@ -1,0 +1,54 @@
+/* Footer */
+
+#Navegation-List-FooterLittle{
+    position: absolute;
+    top: 30vw;
+    left: 0px;
+}
+
+.List-Footer-Little{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Facebook-SocialNetworks i{
+    font-size: 4vw;
+    color: var(--Color-Primario);
+}
+
+.Facebook-SocialNetworks i:hover{
+    color: var(--Color-Facebook);
+    transition: 2s;
+    cursor: pointer;
+}
+
+.TwitterX-SocialNetworks{
+    margin-left: 2.5vw;
+}
+
+.TwitterX-SocialNetworks i{
+    font-size: 4vw;
+    color: var(--Color-Primario);
+}
+
+.TwitterX-SocialNetworks i:hover{
+    color: var(--Color-TwitterX);
+    transition: 2s;
+    cursor: pointer;
+}
+
+.Instagram-SocialNetworks{
+    margin-left: 2.5vw;
+}
+
+.Instagram-SocialNetworks i{
+    font-size: 4vw;
+    color: var(--Color-Primario);
+}
+
+.Instagram-SocialNetworks i:hover{
+    color: var(--Color-Instagram);
+    transition: 2s;
+    cursor: pointer;
+}

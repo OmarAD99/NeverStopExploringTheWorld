@@ -1,0 +1,47 @@
+:root{
+  --Color-Primario: #FFF;
+  --Color-Secundario: #010101;
+  --Color-Facebook: blue;
+  --Color-TwitterX: rgb(0, 204, 255);
+  --Color-Instagram: pink;
+}
+
+*, *::before, *::after{
+  margin: 0%;
+  padding: 0%;
+  vertical-align: auto;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: "DM Sans", cursive;
+}
+
+ul, ol{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+p, a{
+  display: inline;
+}
+
+img, video, iframe, picture, figure{
+  max-width: 100%;
+}
+
+form, input, select, textarea, button, label{
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}

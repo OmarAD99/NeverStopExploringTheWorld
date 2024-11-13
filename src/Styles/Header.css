@@ -1,0 +1,16 @@
+/* Header - Encabezado */
+
+.Header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    position: absolute;
+    top: 0px;
+    z-index: 2;
+}
+
+.Header .Logotipo h1{
+    font-size: 4vw;
+    color: var(--Color-Primario);
+}

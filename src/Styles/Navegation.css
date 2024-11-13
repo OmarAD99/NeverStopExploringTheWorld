@@ -1,0 +1,65 @@
+/* Navegation */
+
+.Header .Navegation-Little{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70vw;
+}
+
+.Header .Navegation-Little .Label-Main{
+    position: relative;
+    cursor: pointer;
+}
+
+.Header .Navegation-Little #Spn-1, #Spn-2, #Spn-3{
+    position: absolute;
+    content: '';
+    background: var(--Color-Primario);
+    top: -6px;
+    height: 4px;
+    width: 20px;
+    border-radius: 75px;
+    transition: all 400ms linear;
+}
+
+.Header .Navegation-Little #Spn-2{
+    top: -1px;
+}
+
+.Header .Navegation-Little #Spn-3{
+    top: 4px;
+}
+
+.Header .Navegation-Little #Btn-Main{
+    display: none;
+}
+
+.Header .Navegation-Little #Btn-Main:checked ~ .Label-Main #Spn-1{
+    transform: rotate(140deg);
+    top: -1px;
+}
+
+.Header .Navegation-Little #Btn-Main:checked ~ .Label-Main #Spn-2{
+    opacity: 0;
+}
+
+.Header .Navegation-Little #Btn-Main:checked ~ .Label-Main #Spn-3{
+    transform: rotate(-140deg);
+    top: -1px;
+}
+
+.Header .Navegation-Little .Label-Navegation{
+    display: none;
+}
+
+.Header .Navegation-Little .Label-Navegation .ListNavegation-Little{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Header .Navegation-Little #Btn-Main:checked ~ .Label-Navegation{
+    display: block;
+}

@@ -1,0 +1,36 @@
+/* Main */
+
+#Navegation-List-MainLittle{
+    position: absolute;
+    top: 15vw;
+    left: 15px;
+}
+
+.List-Main-Little h2{
+    text-transform: uppercase;
+    font-size: 4vw;
+    color: var(--Color-Primario);
+}
+
+.List-Main-Little h3{
+    font-size: 2vw;
+    text-transform: lowercase;
+    color: var(--Color-Primario);
+}
+
+.List-Main-Little a{
+    font-size: 3vw;
+    text-transform: uppercase;
+    color: var(--Color-Secundario);
+    background: var(--Color-Primario);
+    border: 2px solid var(--Color-Secundario);
+    padding: 1vw;
+    cursor: pointer;
+}
+
+.List-Main-Little a:hover{
+    background: var(--Color-Secundario);
+    color: var(--Color-Primario);
+    border: 2px solid var(--Color-Primario);
+    transition: 2s;
+}
